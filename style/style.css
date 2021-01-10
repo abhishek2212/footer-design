@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 100%;
+  height: 96px;
+  background-color: blueviolet;
+}
+.container .nav-container span{
+  color: aqua;
+}
+
+.container .nav-container h1{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  
+}
+
+
+/* footer design */
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(66, 65, 65);
+  z-index: 1;
+  padding: 16px 26px;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.footer-left{
+  /* border: 2px solid orange; */
+  line-height: 30px;
+}
+ .footer-logo{
+  font-size: 35px;
+  color: #e7cfcf;
+  margin: 12px;
+}
+
+.footer-left{
+  display: inline-block;
+  padding: 10px 27px;
+  margin: 16px 26px;
+  /* border: 2px solid red; */
+}
+.footer-left h4{
+  margin: 0;
+  font-size: 22px;
+  color: #e7cfcf;
+  font-weight: bold;
+} 
+
+.footer-left a{
+  color: #969595;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-center-1{
+  display: inline-block;
+  padding: 10px 27px;
+  margin: 16px 26px;
+  /* border: 2px solid green; */
+
+}
+.footer-center-1 h4{
+  margin: 0;
+  font-size: 22px;
+  color: #e7cfcf;
+}
+.footer-center-1 p{
+  color: #969595;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.footer-center-2{
+  display: inline-block;
+  padding: 10px 27px;
+  margin: 16px 26px;
+  /* border: 2px solid green; */
+
+}
+
+.footer-center-2 h4 {
+  margin: 0;
+  font-size: 22px;
+  color: #e7cfcf;
+}
+
+.footer-center-2 p a{
+  color: #969595;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.footer-right-1{
+  display: inline-block;
+  /* position: relative; */
+  padding: 10px 27px;
+  margin: 16px 26px;
+  /* border: 2px solid green; */
+}
+
+.footer-right-1 h4{
+  margin: 0;
+  font-size: 22px;
+  color: #e7cfcf;
+}
+
+.footer-right-1 p a{
+  color: #969595;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 30px;
+}
+.contact{
+  /* border: 2px solid red;  */
+  margin: 16px 26px;
+  padding: 10px 27px;
+}
+.contact h4{
+  margin: 0;
+  font-size: 22px;
+  color: #e7cfcf;
+}
+
+.contact label{
+  margin: 0;
+  font-size: 16px;
+  color: #969595;
+}
+.contact p input[type=text]{
+  width: 100%;
+  padding: 12px 11px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+}
+.contact textarea{
+  resize: none;
+}
+
+.contact button{
+  color: rgb(7, 7, 7);
+  border: 2px solid rgb(88, 6, 6);
+  background-color: rgb(3, 102, 107);
+  padding: 4px 12px;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover{
+  background-color: rgb(89, 97, 97);
+  color: #fff;
+  border: 2px solid rgb(88, 6, 6);
+
+}
+
